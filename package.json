@@ -1,0 +1,26 @@
+{
+  "name": "gpt-repository-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "vite-node gpt_repository_loader.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/minimatch": "^5.1.2",
+    "@types/minimist": "^1.2.5",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  },
+  "dependencies": {
+    "glob": "^11.0.0",
+    "minimatch": "^10.0.1",
+    "minimist": "^1.2.8",
+    "tsx": "^4.19.0",
+    "vite-node": "^2.0.5"
+  }
+}
