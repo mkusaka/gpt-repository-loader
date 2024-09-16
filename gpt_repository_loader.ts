@@ -58,7 +58,8 @@ export function processRepository(repoPath: string, ignoreList: string[], output
   console.log(`Repository contents written to ${outputFilePath}.`);
 }
 
-if (!import.meta.vitest) {
+// Start of Selection
+if (require.main === module) {
   const args = minimist(process.argv.slice(2));
   const repoPath = args._[0];
   let ignoreFilePath = path.join(repoPath, ".gptignore");
